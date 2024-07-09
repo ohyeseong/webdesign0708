@@ -32,4 +32,12 @@ $(document).ready(function(){
         // if조건 걸어주고 차례대로 fade in out 걸어주기(4)
     }, 2000)
 
+    $(".p_up").click(function(){
+        $(".popup").slideDown("fast");
+    })
+
+    $(".close").click(function(){
+        $(".popup").slideUp("fast");
+    })
+
 })// jquery 끝
